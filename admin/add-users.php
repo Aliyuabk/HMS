@@ -226,7 +226,7 @@ if(isset($_POST['submit'])) {
 
 														<div class="form-group">
 															<label>Password</label>
-															<input type="password" name="password" value="hms1234" class="form-control" required>
+															<input type="password" name="password" value="hms123" class="form-control" required>
 														</div>
 
 														<button type="submit" name="submit" class="btn btn-primary">Add User</button>

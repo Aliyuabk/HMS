@@ -9,7 +9,7 @@ if(!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'doctor'){
 }
 
 $user_id = $_SESSION['user_id'];
-$sql = mysqli_query($con, "SELECT * FROM staff WHERE id = '$user_id'");
+$sql = mysqli_query($con, "SELECT * FROM doctor WHERE id = '$user_id'");
 $user_data = mysqli_fetch_array($sql);
 
 $status = isset($_GET['status']) ? $_GET['status'] : '';
